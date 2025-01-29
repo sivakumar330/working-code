@@ -5,24 +5,40 @@
 <body bgcolor="white" style="colour: gray;">
     <center>
     <form action="loginresult.html" method="GET">
-            <div>
-                <lable for="UserName">UserName</lable>
-                <input tybe="name" id="UserName" placeholder="Enter the username">
-            </div>
-            <br>
-            <div>
-                <lable for="Password">Password</lable>
-                <input tybe="name" id="Password" placeholder="Enter the password" maxlength="8">              
+        <table>
+            <tr>
+                <td>
+                    <lable for="UserName">UserName:</lable> 
+                </td>
+         
+                <td>
+                    <input tybe="text" name="UserName" id="UserName" placeholder="Enter the UserName" required maxlength="15">  
+                </td>
+            </tr>
+        </table>
+    </form>
+    <form>
+        <table>      
+            <tr>
+                <td>
+                    <lable for="Password">Password:</lable>
+                </td>
+           
+                <td>
+                    <input tybe="Password" name="Password" id="Password" placeholder="Enter the password" required minlength="8">              
         
-            </div>
+           
+                </td>
+            </tr>   
+        </table>
             <br>
-            <button tybe="submit">login</button>
+            <button tybe="submit">login</button> 
             
     </form>
     </center>
     
 </body>
 <P>
-<em>smartwatches computers wearables gaming console</em>
+<em>smartwatches computers wearables gaming console </em>
     
 </P>
